@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/shgtkshruch/backbone-library/issues"
   },
-  "homepage": "https://github.com/shgtkshruch/backbone-library"
+  "homepage": "https://github.com/shgtkshruch/backbone-library",
+  "dependencies": {
+    "gulp": "^3.8.10",
+    "main-bower-files": "^2.4.1"
+  }
 }

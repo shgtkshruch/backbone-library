@@ -24,6 +24,17 @@
      </form>
     </div>
 
+    <script type="text/template" id="bookTemplate">
+      <img src="<%= coverImage" alt="cover image">
+      <ul>
+        <li><%= title %></li>
+        <li><<%= author %></li>
+        <li><<%= releaseDate %></li>
+        <li><<%= ketwords %></li>
+      </ul>
+      <button class="delete">削除</button>
+    </script>
+
     <script src="js/lib/jquery/dist/jquery.js"></script>
     <script src="js/lib/underscore/underscore.js"></script>
     <script src="js/lib/backbone/backbone.js"></script>
